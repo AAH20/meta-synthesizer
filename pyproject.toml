@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meta-synthesizer"
+version = "1.0.0"
+description = "Autonomous Live-Process Self-Modifying Quine & Hot-Reload Engine for Frontier Swarms (September 2026)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Antigravity Engineering", email = "engineering@antigravity.ai"}]
+dependencies = []
+
+[project.scripts]
+meta-synthesizer = "meta_synthesizer.cli:main"
